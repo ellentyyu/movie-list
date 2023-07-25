@@ -1,5 +1,12 @@
-h3 {
+.h3title {
     font-weight: 800;
     color: rebeccapurple;
     text-decoration: underline;
+    a {
+        color: red;
+    }
+
+    &:hover {
+        color: blue;
+    }
 }
