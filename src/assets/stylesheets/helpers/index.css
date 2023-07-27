@@ -10,3 +10,11 @@
         color: blue;
     }
 }
+
+.card {
+    width: 23.9%;
+
+    &.sortable-chosen {
+        background-color: lightpink;
+    }
+}
