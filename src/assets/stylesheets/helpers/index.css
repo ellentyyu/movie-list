@@ -17,4 +17,15 @@
     &.sortable-chosen {
         background-color: lightpink;
     }
+
+    &.sortable-ghost {
+        background-color: #a4a4a4;
+        p {
+            display: none;
+        }
+    }
+}
+
+.empty {
+    background-color: transparent;
 }
