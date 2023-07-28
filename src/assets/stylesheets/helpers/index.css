@@ -29,3 +29,29 @@
 .empty {
     background-color: transparent;
 }
+
+.card-modal {
+    div[tabindex="0"] {
+        transition: all .5s;
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    &.show {
+        div[tabindex="0"] {
+            opacity: 1;
+            transform: translateY(20px);
+        }
+    }
+}
+
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

@@ -18,12 +18,14 @@
                 </template>
             </draggable>
         </div>
+        <CardModal />
     </main>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import draggable from 'vuedraggable'
+import CardModal from '../components/CardModal.vue'
 let drag = ref(false);
 const chosen = ref(null);
 const list = ref(
